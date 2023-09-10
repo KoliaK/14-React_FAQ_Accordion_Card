@@ -17,8 +17,7 @@ const Accordion = (props) => {
                 <img
                     className={`accordion_btn ${isActive ? 'active' : ''}`} 
                     src={IconArrow} 
-                    alt=""
-                    />
+                    alt=""/>
                 </div>      
             </div>
 
