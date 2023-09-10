@@ -3,11 +3,11 @@ import IconArrow from '../assets/icon-arrow-down.svg';
 import './Accordion.css';
 
 const Accordion = (props) => {
-  const [isActive, setIsActive] = useState(false);
+    const [isActive, setIsActive] = useState(false);
 
-  const toggleAccordion = () => {
-    setIsActive(!isActive);
-  };
+    const toggleAccordion = () => {
+        setIsActive(!isActive);
+    };
 
     return (
         <>
