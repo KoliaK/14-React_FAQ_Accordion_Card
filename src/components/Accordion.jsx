@@ -11,14 +11,14 @@ const Accordion = (props) => {
 
     return (
         <>
-            <div className="accordion_title_container" onClick={toggleAccordion} >
+            <div className="accordion_title_container" onClick={toggleAccordion}>
                 <h2 className={`accordion_title ${isActive ? 'active' : ''}`}>{props.title}</h2>
                 <div className="button_container">
                 <img
                     className={`accordion_btn ${isActive ? 'active' : ''}`} 
                     src={IconArrow} 
                     alt=""
-                    onClick={toggleAccordion} />
+                    />
                 </div>      
             </div>
 
