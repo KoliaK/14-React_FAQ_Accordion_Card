@@ -5,11 +5,11 @@ import './App.css';
 
 function App() {
 
-  return (
-    <>
-        <FAQpage />
-    </>
-  )
+    return (
+        <>
+            <FAQpage />
+        </>
+    );
 }
 
 export default App

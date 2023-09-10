@@ -9,23 +9,23 @@ import BoxImg from '../assets/illustration-box-desktop.svg';
 import './FAQpage.css';
 
 const FAQpage = () => {
-  return (
-    <Card>
-        <div className="img_container">
-            <img className="mobile_bg" src={MobileBG} alt="" />
-            <img className="mobile_img" src={MobileImg} alt="" />
-            <img src={DesktopBG} alt="" className="desktop_bg" />
-            <img src={DesktopImg} alt="" className="desktop_img" />
-            <img src={BoxImg} alt="" className="box_img" />
-        </div>
+    return (
+        <Card>
+            <div className="img_container">
+                <img className="mobile_bg" src={MobileBG} alt="" />
+                <img className="mobile_img" src={MobileImg} alt="" />
+                <img src={DesktopBG} alt="" className="desktop_bg" />
+                <img src={DesktopImg} alt="" className="desktop_img" />
+                <img src={BoxImg} alt="" className="box_img" />
+            </div>
 
-        <div className="text_box">
-            <h1 className="FAQ_title">FAQ</h1>
-            <AccordionContainer />
-        </div>
-      
-    </Card>
-  );
+            <div className="text_box">
+                <h1 className="FAQ_title">FAQ</h1>
+                <AccordionContainer />
+            </div>
+        
+        </Card>
+    );
 };
 
 export default FAQpage;
