@@ -3,18 +3,18 @@
 /*font-family: 'Kumbh Sans', sans-serif;*/
 
 *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body{
-  background-image: linear-gradient(to right, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
-  font-family: 'Kumbh Sans', sans-serif;
-  color: hsl(238, 29%, 16%);
-  font-weight: 400;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    background-image: linear-gradient(to right, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    font-family: 'Kumbh Sans', sans-serif;
+    color: hsl(238, 29%, 16%);
+    font-weight: 400;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

@@ -1,14 +1,14 @@
 .card {
-  margin: 0 auto;
-  background-color: hsl(0, 0%, 100%);
-  width: 90%;
-  border-radius: 25px;
-  padding: 2rem;
+	margin: 0 auto;
+	background-color: hsl(0, 0%, 100%);
+	width: 90%;
+	border-radius: 25px;
+	padding: 2rem;
 }
 
 @media screen and (min-width: 994px) {
-  .card {
-    display: flex;
-  }
+	.card {
+		display: flex;
+	}
 
 }

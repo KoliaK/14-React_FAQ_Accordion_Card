@@ -7,9 +7,10 @@ function App() {
 
   return (
     <>
-      <FAQpage />
+        <FAQpage />
     </>
   )
 }
 
 export default App
+
